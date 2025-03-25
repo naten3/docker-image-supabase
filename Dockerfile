@@ -19,7 +19,7 @@ RUN curl -L "https://github.com/docker/compose/releases/latest/download/docker-c
     chmod +x /usr/local/bin/docker-compose
 
 # Install Supabase CLI
-RUN curl -L https://github.com/supabase/cli/releases/latest/download/supabase_linux_amd64.tar.gz | tar -xz && \
+RUN curl -L https://github.com/supabase/cli/releases/download/v2.13.3/supabase_linux_amd64.tar.gz | tar -xz && \
     mv supabase /usr/local/bin/supabase && \
     chmod +x /usr/local/bin/supabase
 
